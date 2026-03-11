@@ -20,7 +20,7 @@ const agreeTerms = ref(false)
     <div class="w-full max-w-4xl bg-white rounded-[2rem] overflow-hidden flex flex-col md:flex-row shadow-2xl ">
 
       <!-- Left Side: Registration Form -->
-      <div class="md:w-1/2 p-6 sm:p-10 md:p-12 flex flex-col justify-center -mt-6">
+      <div class="md:w-1/2 p-6 sm:p-10 md:p-12 flex flex-col justify-center  lg:-mt-7 md:-mt-7 ">
         <!-- Logo -->
         <div class="flex items-center gap-2 mb-8 justify-center md:justify-start">
           <div class="text-[#A31621] text-4xl font-bold flex items-center">
