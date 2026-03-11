@@ -51,9 +51,10 @@ const handleLogin = async () => {
 }
 </script>
 
+
 <template>
   <div
-    class="min-h-screen bg-[#0A0A0A] flex items-center justify-center p-4 sm:p-6 lg:p-8 font-sans"
+    class="min-h-screen bg-[#0A0A0A] flex items-center justify-center md:p-4 font-sans"
   >
     <!-- Vertical Text indicator (right side for Login) -->
     <div class="fixed right-4 top-1/2 -translate-y-1/2 hidden xl:block">
@@ -62,14 +63,12 @@ const handleLogin = async () => {
       >
         Login
       </h2>
-    </div>
-
-    <!-- Main Container -->
+    </div>    <!-- Main Container -->
     <div
-      class="w-full max-w-4xl bg-white rounded-[2rem] overflow-hidden flex flex-col md:flex-row shadow-2xl"
+      class="w-full max-w-4xl bg-white md:rounded-[2rem] overflow-hidden flex flex-col md:flex-row shadow-2xl min-h-screen md:min-h-0"
     >
       <!-- Left Side: Image (Burger) -->
-      <div class="md:w-1/2 bg-[#0A0A0A] relative flex items-center justify-center overflow-hidden">
+      <div class="md:w-1/2 bg-[#0A0A0A] relative hidden md:flex items-center justify-center overflow-hidden">
         <!-- Floating ingredients effect background (simulated) -->
         <div class="absolute inset-0 opacity-40">
           <div
@@ -95,7 +94,7 @@ const handleLogin = async () => {
       </div>
 
       <!-- Right Side: Login Form -->
-      <div class="md:w-1/2 p-6 sm:p-10 md:p-12 flex flex-col justify-center lg:-mt-7 md:-mt-7">
+      <div class="md:w-1/2 p-8 sm:p-10 md:p-12 flex flex-col justify-center lg:-mt-7 md:-mt-7">
         <!-- Logo -->
         <div class="flex items-center gap-2 mb-8 justify-center md:justify-start">
           <div class="text-[#A31621] text-4xl font-bold flex items-center">
@@ -105,11 +104,10 @@ const handleLogin = async () => {
           </div>
         </div>
 
-        <div class="mb-8 -mt-2">
+        <div class="mb-8 -mt-2 text-center md:text-left">
           <h1 class="text-2xl font-bold text-gray-800 mb-1">Login to your account</h1>
           <p class="text-gray-400 text-sm">Welcome back! Login With Email</p>
         </div>
-
         <form @submit.prevent="handleLogin" class="space-y-5">
           <!-- Multi-input style for phone/email like in image -->
           <div class="relative">
