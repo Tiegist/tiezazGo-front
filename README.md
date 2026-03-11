@@ -40,3 +40,14 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## Adding Custom Homepage Images
+
+The `HomeView.vue` component references six image files inside `public/images`:
+
+- `hero.jpg` (background)
+- `dish.jpg` (feature section)
+- `steak.jpg`, `pasta.jpg`, `salad.jpg`, `dessert.jpg` (favorites gallery)
+
+Placeholder 1×1‑pixel JPEGs are included by default. Replace them with your actual photos by copying your images to `public/images` and keeping the same filenames (or edit the component paths accordingly). When you run `npm run dev`, the local assets will be served automatically.
+
