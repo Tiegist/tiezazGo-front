@@ -8,7 +8,7 @@ const agreeTerms = ref(false)
 </script>
 
 <template>
-  <div class="min-h-screen bg-[#0A0A0A] flex items-center justify-center p-4 sm:p-6 lg:p-8 font-sans">
+  <div class="min-h-screen bg-[#0A0A0A] flex items-center justify-center md:p-4 font-sans">
     <!-- Vertical Text indicator (left side for Sign Up) -->
     <div class="fixed left-4 top-1/2 -translate-y-1/2 hidden xl:block">
       <h2 class="text-white/20 text-6xl font-bold -rotate-90 origin-center tracking-widest whitespace-nowrap">
@@ -17,10 +17,10 @@ const agreeTerms = ref(false)
     </div>
 
     <!-- Main Container -->
-    <div class="w-full max-w-4xl bg-white rounded-[2rem] overflow-hidden flex flex-col md:flex-row shadow-2xl ">
+    <div class="w-full max-w-4xl bg-white md:rounded-[2rem] overflow-hidden flex flex-col md:flex-row shadow-2xl min-h-screen md:min-h-0">
 
       <!-- Left Side: Registration Form -->
-      <div class="md:w-1/2 p-6 sm:p-10 md:p-12 flex flex-col justify-center  lg:-mt-7 md:-mt-7 ">
+      <div class="md:w-1/2 p-8 sm:p-10 md:p-12 flex flex-col justify-center -mt-6">
         <!-- Logo -->
         <div class="flex items-center gap-2 mb-8 justify-center md:justify-start">
           <div class="text-[#A31621] text-4xl font-bold flex items-center">
@@ -30,7 +30,7 @@ const agreeTerms = ref(false)
           </div>
         </div>
 
-        <div class="mb-8 -mt-5">
+        <div class="mb-8 -mt-5 text-center md:text-left">
           <h1 class="text-2xl font-bold text-gray-800 mb-1">Sign up your account</h1>
           <p class="text-gray-400 text-sm">Welcome! Register with Email</p>
         </div>
@@ -97,7 +97,7 @@ const agreeTerms = ref(false)
       </div>
 
       <!-- Right Side: Image (Burger) -->
-      <div class="md:w-1/2 bg-[#0A0A0A] relative flex items-center justify-center overflow-hidden">
+      <div class="md:w-1/2 bg-[#0A0A0A] relative hidden md:flex items-center justify-center overflow-hidden">
         <!-- Floating ingredients effect background (simulated) -->
         <div class="absolute inset-0 opacity-40">
            <div class="absolute top-20 right-20 w-4 h-4 bg-orange-500 rounded-full blur-sm animate-pulse"></div>
