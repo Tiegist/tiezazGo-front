@@ -13,17 +13,17 @@ import Navbar from '../components/Navbar.vue'
 
       <div class="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center relative z-10">
         <div class="max-w-xl text-center lg:text-left lg:ml-16">
-          <h1 class="font-serif text-2xl sm:text-2xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6">
-            <span class="block text-[#D9A05B]">Yoan Your</span>
-            <span class="block text-[#D9A05B]">Camily Home</span>
-            <span class="block text-[#D9A05B] font-serif font-bold  text-2xl sm:text-4xl md:text-4xl lg:text-5xl mt-2">the Belloic High <br> and Herms</span>
+          <h1 class="font-serif text-2xl sm:text-2xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6 text-white text-[10px]">
+            <span class="block text-[#D9A05B]">Master Your</span>
+            <span class="block">Culinary Craft</span>
+            <span class="block text-[#D9A05B] font-serif font-bold text-2xl sm:text-4xl md:text-4xl lg:text-5xl mt-2 italic">The Gold Standard <br> for Gourmet Tech</span>
           </h1>
           <p class="text-gray-400 text-base md:text-lg mb-8 md:mb-10 leading-relaxed mx-auto lg:mx-0 max-w-md">
-            The flavors of our high-quality products are curated with passion to create an experience that meets your needs perfectly.
+            Streamline your kitchen, delight your guests, and scale your establishment with our world-class restaurant management ecosystem.
           </p>
           <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-6">
             <button class="w-full sm:w-auto bg-[#D9A05B] text-black px-8 py-4 rounded-full font-bold hover:bg-[#B8860B] transition-colors flex items-center justify-center gap-2">
-              Explore Our Highlights
+              Explore the Platform
               <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
             </button>
           </div>
@@ -41,13 +41,13 @@ import Navbar from '../components/Navbar.vue'
                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 sm:w-5 sm:h-5 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
                 </div>
                 <div>
-                  <div class="font-serif text-xl sm:text-2xl font-bold">Gourmet</div>
-                  <div class="text-[10px] text-gray-500 uppercase tracking-widest">Since 1978</div>
+                  <div class="font-serif text-xl sm:text-2xl font-bold text-white">Gourmet</div>
+                  <div class="text-[10px] text-[#D9A05B] uppercase tracking-widest font-bold">Since 2026</div>
                 </div>
               </div>
               <div class="h-8 sm:h-10 w-px bg-white/10 mx-2 sm:mx-4"></div>
               <p class="text-[9px] sm:text-[10px] text-gray-400 max-w-[120px] sm:max-w-[180px] leading-tight">
-                Wilshire for those who seek the best culinary and artisanal dishes.
+                Designed for those who seek the best culinary control and artisanal efficiency.
               </p>
                <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-[#D9A05B] flex items-center justify-center ml-2 sm:ml-4 cursor-pointer hover:rotate-45 transition-transform">
                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 sm:w-5 sm:h-5 text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
@@ -69,18 +69,18 @@ import Navbar from '../components/Navbar.vue'
     <section class="py-20 md:py-32 relative overflow-hidden">
       <div class="container mx-auto px-6 grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         <div class="order-2 lg:order-1 text-center lg:text-left">
-          <span class="text-[#D9A05B] text-sm font-bold tracking-[0.2em] uppercase mb-4 block">Gourmet Experience</span>
-          <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold mb-6 md:mb-8 leading-tight">
-            Immensity with<br />
-            Sharings with 0 interest<br />
-            to quick and elegant<br />
-            culture.
+          <span class="text-[#D9A05B] text-sm font-bold tracking-[0.2em] uppercase mb-4 block">Empowering Gastronomy</span>
+          <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold mb-6 md:mb-8 leading-tight text-white">
+            Immense Control<br />
+            Seamless Operations<br />
+            with Zero Friction<br />
+            and Elegant Style.
           </h2>
           <p class="text-gray-400 text-base md:text-lg leading-relaxed mb-8 md:mb-10 mx-auto lg:mx-0 max-w-md">
-            Where elegance meets taste. Our daily curated menu focuses on the best products available, ensuring a unique experience every time you visit.
+            Where efficiency meets elegance. Our management suite focuses on the best tools available, ensuring a unique experience for your staff and guests.
           </p>
           <button class="border border-[#D9A05B] text-[#D9A05B] px-8 py-3.5 rounded-full font-bold hover:bg-[#D9A05B] hover:text-black transition-all">
-            Discover More
+            See the Magic
           </button>
         </div>
         <div class="order-1 lg:order-2 relative">
@@ -102,7 +102,7 @@ import Navbar from '../components/Navbar.vue'
       <div class="container mx-auto px-6">
         <div class="text-center mb-12 sm:mb-16">
           <span class="text-[#D9A05B] text-xs font-bold tracking-[0.3em] uppercase mb-3 block">Selected Offerings</span>
-          <h2 class="font-serif text-3xl sm:text-4xl font-bold">Webfoutend</h2>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white">Curated Platform Highlights</h2>
           <div class="w-16 h-1 bg-[#D9A05B] mx-auto mt-4"></div>
         </div>
 

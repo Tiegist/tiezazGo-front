@@ -18,6 +18,7 @@ const isMobileMenuOpen = ref(false)
       <!-- Desktop Nav -->
       <ul class="hidden lg:flex items-center gap-8 text-sm font-medium text-gray-300">
         <li><RouterLink to="/" class="hover:text-[#D9A05B] transition-colors">Home</RouterLink></li>
+        <li><RouterLink to="/pricing" class="hover:text-[#D9A05B] transition-colors">Pricing</RouterLink></li>
         <li><a href="#" class="hover:text-[#D9A05B] transition-colors relative after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-[2px] after:bg-[#D9A05B]">Packages</a></li>
         <li><a href="#" class="hover:text-[#D9A05B] transition-colors">Pizza</a></li>
         <li><a href="#" class="hover:text-[#D9A05B] transition-colors">Burger</a></li>
@@ -60,6 +61,7 @@ const isMobileMenuOpen = ref(false)
       <div v-if="isMobileMenuOpen" class="lg:hidden bg-black/95 absolute top-20 left-0 right-0 py-8 px-6 border-b border-white/10 shadow-2xl backdrop-blur-xl">
         <ul class="flex flex-col items-center gap-6 text-lg font-medium">
           <li><RouterLink to="/" @click="isMobileMenuOpen = false" class="text-[#D9A05B]">Home</RouterLink></li>
+          <li><RouterLink to="/pricing" @click="isMobileMenuOpen = false" class="hover:text-[#D9A05B] transition-colors text-white">Pricing</RouterLink></li>
           <li><a href="#" @click="isMobileMenuOpen = false" class="hover:text-[#D9A05B] transition-colors text-white">Packages</a></li>
           <li><a href="#" @click="isMobileMenuOpen = false" class="hover:text-[#D9A05B] transition-colors text-white">Pizza</a></li>
           <li><a href="#" @click="isMobileMenuOpen = false" class="hover:text-[#D9A05B] transition-colors text-white">Burger</a></li>
