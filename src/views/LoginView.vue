@@ -111,14 +111,13 @@ const handleLogin = async () => {
             <!-- Accents -->
             <div class="absolute top-0 left-[10%] right-[10%] h-[1px] bg-gradient-to-r from-transparent via-[#E8B86D]/40 to-transparent"></div>
             <div class="absolute top-4 right-4 w-6 h-6 border-t border-r border-[#D9A05B]/20 rounded-tr-lg"></div>
-
             <!-- Logo -->
             <div class="flex items-center gap-3 mb-8 justify-center md:justify-start">
               <div class="w-10 h-10 bg-gradient-to-br from-[#E8B86D] to-[#B8860B] rounded-xl flex items-center justify-center shadow-lg shadow-[#D9A05B]/20">
                 <span class="text-black font-bold text-sm">V</span>
               </div>
               <div>
-                <span class="text-lg font-bold tracking-tight text-white block leading-none">VenobHD</span>
+                <span class="text-lg font-bold tracking-tight text-white block leading-none">𝕿ዕዛዝ𝕲𝖔</span>
                 <span class="text-[8px] text-[#D9A05B]/60 tracking-[0.2em] uppercase font-medium">Gourmet Tech</span>
               </div>
             </div>
