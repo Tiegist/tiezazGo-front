@@ -44,7 +44,7 @@ const agreeTerms = ref(false)
                 <span class="text-black font-bold text-sm">V</span>
               </div>
               <div>
-                <span class="text-lg font-bold tracking-tight text-white block leading-none">VenobHD</span>
+                <span class="text-lg font-bold tracking-tight text-white block leading-none">𝕿ዕዛዝ𝕲𝖔</span>
                 <span class="text-[8px] text-[#D9A05B]/60 tracking-[0.2em] uppercase font-medium">Gourmet Tech</span>
               </div>
             </div>
